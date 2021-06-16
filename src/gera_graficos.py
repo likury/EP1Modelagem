@@ -152,11 +152,10 @@ def main():
 
     # calculate total distance up to the given point
     for i in indexes1L:
-        a = data[i]
-        b = data[i - 1]
-        dist_proj_ac[i] = get_dist_proj(a, b) + dist_proj_ac[i -1]
-        dist_hav_ac[i] = get_dist_haversine(a, b) + dist_hav_ac[i - 1]
-        dist_trig_ac[i] = get_dist_spherical_trigonometry(a, b) + dist_trig_ac[i - 1]
+        j = i - 1
+        dist_proj_ac[i] = dist_proj[j] + dist_proj_ac[j]
+        dist_hav_ac[i] = dist_hav[j] + dist_hav_ac[j]
+        dist_trig_ac[i] = dist_hav[j] + dist_trig_ac[j]
 
     ## TIME DIFERENCE
     times = [0] * l
