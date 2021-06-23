@@ -3,6 +3,10 @@
 Arquivos do Exercício-Programa 1 de Modelagem e Simulação.
 Integrantes: Lucas, Bruno, André.
 
+## Python Notebooks
+- A explicação para funcionamento do programa está organizada no python notebook EP1.ipynb
+- A pasta /scr contém os scripts em formato .py.
+
 ## Arquivos JSON
 - O arquivo JSON responseBrasil.json contém o retorno da API do KartaView para o trecho 1352771 (Rodovia Washington Luís, São Carlos, São Paulo, Brazil, BR)
 
