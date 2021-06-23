@@ -1,6 +1,7 @@
 # EP1Modelagem
 
-Arquivos do Exercício-Programa 1 de Modelagem e Simulação
+Arquivos do Exercício-Programa 1 de Modelagem e Simulação.
+Integrantes: Lucas, Bruno, André.
 
 ## Arquivos JSON
 - O arquivo JSON responseBrasil.json contém o retorno da API do KartaView para o trecho 1352771 (Rodovia Washington Luís, São Carlos, São Paulo, Brazil, BR)
